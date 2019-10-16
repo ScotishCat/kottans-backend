@@ -16,3 +16,9 @@ Honestly, I'm a mac user for around 10 years, and usually used terminal only for
 ![Proof screenshot](task_unix_shell/quiz-number-3.png)
 ![Proof screenshot](task_unix_shell/quiz-number-4.png)
 ![Proof screenshot](task_unix_shell/conclusion.png)
+
+## Git Collaboration
+
+As a GitHub user for more then four years, I found this collaboration course totally awesome. It reminded me all the GitHub basics and, from my personal point of view, covered most of the applicable use cases with it. 
+
+![Proof screenshot](task_unix_shell/github_collaboration_course.png)
