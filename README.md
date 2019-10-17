@@ -21,7 +21,7 @@ Honestly, I'm a mac user for around 10 years, and usually used terminal only for
 
 As a GitHub user for more then four years, I found this collaboration course totally awesome. It reminded me all the GitHub basics and, from my personal point of view, covered most of the applicable use cases with it. 
 
-![Proof screenshot](task_unix_shell/github_collaboration_course.png)
+![Proof screenshot](task_git_collaboration/github_collaboration_course.png)
 
 ## Python Basics 1
 
