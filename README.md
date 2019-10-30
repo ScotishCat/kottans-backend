@@ -86,3 +86,10 @@ LINUX memory mapping:
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 ```
 STACK - `7ffd444bf000-7ffd444e0000`, HEAP - `560293997000-5602939fa000`, MMS - `7f660ff52000-7f660ff79000 /lib/x86_64-linux-gnu/ld-2.27.so` 
+
+## TCP. UDP. Network
+
+![Proof screenshot](task_networks/internet_101.png)
+![Proof screenshot](task_networks/networking_for_web_developers.png)
+
+I had basic understanding of network layers and corresponding protocols since my study at univervity, so I do understand the difference between TCP and UDP. But I like very much Khan Academy's videos about how internet works, have seen them before, and recommend them to my friends) Networking for web developers filled in gaps in my understanding and gave me necessary knowledge of console tools to examine TCP packets and their content.  
