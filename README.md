@@ -93,3 +93,31 @@ STACK - `7ffd444bf000-7ffd444e0000`, HEAP - `560293997000-5602939fa000`, MMS - `
 ![Proof screenshot](task_networks/networking_for_web_developers.png)
 
 I had basic understanding of network layers and corresponding protocols since my study at univervity, so I do understand the difference between TCP and UDP. But I like very much Khan Academy's videos about how internet works, have seen them before, and recommend them to my friends) Networking for web developers filled in gaps in my understanding and gave me necessary knowledge of console tools to examine TCP packets and their content.  
+
+## HTTP. HTTPS
+
+List of repositories of "Kottans" organization:
+`curl -i https://api.github.com/orgs/kottans/repos`
+Ctreate new issue in this repository:
+`curl -i -u scotishcat -H "X-GitHub-OTP: ******"  \
+-d '{"title":"<NEW_TITLE>", "body":"ISSUE_BODY"}' \
+https://api.github.com/repos/scotishcat/kottans-backend/issues`
+Then enter the password *********.
+`"X-GitHub-OTP: ******"` is added because of two-factor authentication enabled.
+
+#### Questions:
+1) Name at least three possible negative consequences of not using https.
+
+Answer: Without the SSL, data would not be encrypted as it passed from the browser to the company servers, and could be intercepted by hackers. TLS helps provide data integrity, which helps prevent the transfer of data from being modified or corrupted, and authentication, which proves to your users that they are communicating with the intended website. Google Chrome intends to mark all http sites as “not secure” by July 2018.
+
+2) Explain the main idea behind public key cryptography in few sentences.
+
+Answer: Public key cryptography is an encryption technique that uses a paired public and private key (or asymmetric key) algorithm for secure data communication. A message sender uses a recipient's public key to encrypt a message. To decrypt the sender's message, only the recipient's private key may be used.
+
+3) You are creating an application for pet clinic. You need to implement the following functionality:
+* add new pet - `POST`, details in request body, response - `201 Created`
+* search pet by name - `GET`, details in query params, response - `200 OK`
+* change name of an existing pet - `PUT`, details in request body, response - `200 OK`
+* add new info about pet's health - `PUT`, details in request body, response - `200 OK`
+* assign a pet to a particular doctor - `PUT`, details in request body, response - `200 OK`
+* register an appointment for a pet - `POST`, details in request body, response - `200 OK`
