@@ -99,11 +99,13 @@ I had basic understanding of network layers and corresponding protocols since my
 * List of repositories of "Kottans" organization:
 `curl -i https://api.github.com/orgs/kottans/repos`
 * Create new issue in this repository:
-```curl -i -u scotishcat -H "X-GitHub-OTP: ******"  \
+```
+curl -i -u scotishcat -H "X-GitHub-OTP: ******"  \
 -d '{"title":"<NEW_TITLE>", "body":"ISSUE_BODY"}' \
 https://api.github.com/repos/scotishcat/kottans-backend/issues
 ```
 Then enter the password *********.
+
 `"X-GitHub-OTP: ******"` is added because of two-factor authentication enabled.
 
 #### Questions:
